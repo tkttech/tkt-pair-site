@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: kango-pair-site
+    name: tkt-pair-site
     env: docker
     plan: free
     branch: main
-    repo: https://github.com/OfficialKango/kango-pair-site
+    repo: https://github.com/tkttech/tkt-pair-site
     dockerfilePath: ./Dockerfile
     autoDeploy: true
